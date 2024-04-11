@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-11T07:51:13-00:00</lastmod>
+<lastmod>2024-04-11T08:09:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-11T07:51:13-00:00</lastmod>
+<lastmod>2024-04-11T08:09:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-11T07:51:13-00:00</lastmod>
+<lastmod>2024-04-11T08:09:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-11T07:51:13-00:00</lastmod>
+<lastmod>2024-04-11T08:09:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./w8-41123240.html</loc>
+<lastmod>2024-04-11T08:09:26+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./w7-41123240.html</loc>
-<lastmod>2024-04-11T07:29:07+08:00</lastmod>
+<lastmod>2024-04-11T07:56:35+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -145,14 +152,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w7-41123240.html</loc>
-<lastmod>2024-04-11T07:29:07+08:06</lastmod>
+<lastmod>2024-04-11T07:56:35+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/w8-41123240.html</loc>
+<lastmod>2024-04-11T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/wang-zhi-bian-xie-41123240.html</loc>
-<lastmod>2024-04-11T07:51:02+08:06</lastmod>
+<lastmod>2024-04-11T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/41123240.html</loc>
-<lastmod>2024-04-11T07:51:02+08:06</lastmod>
+<lastmod>2024-04-11T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
