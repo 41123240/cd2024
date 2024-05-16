@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a><li><a href='Brython.html'>Brython</a><li><a href='LaTex-w3作業.html'>LaTex-w3作業</a><li><a href='w5上字幕作業.html'>w5上字幕作業</a><li><a href='期中影片.html'>期中影片</a><li><a href='W10.html'>W10</a></li>
+                     <li><a href='About.html'>About</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a><li><a href='Brython.html'>Brython</a><li><a href='LaTex-w3作業.html'>LaTex-w3作業</a><li><a href='w5上字幕作業.html'>w5上字幕作業</a><li><a href='期中影片.html'>期中影片</a><li><a href='W10協同網站作業.html'>W10協同網站作業</a><li><a href='W12繪製NX作業.html'>W12繪製NX作業</a></li>
                       </ul>
                 </nav>
               </div>
@@ -142,46 +142,18 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">期中影片 << <a href='期中影片.html'>Previous</a> <br /><h1>W10</h1>
-<p>建立群組協同網站並處理</p>
-<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">from browser import window, ajax
-
-def fetch_csv_data():
-url = "https://mdecd2024.github.io/2bstud-2bsite/downloads/2b.txt"
-
-def on_complete(req):
-if req.status == 200 or req.status == 0:
-content = req.text
-lines = content.split('\n')
-for line in lines:
-if line.strip() == "":
-continue
-items = line.split(',')
-if len(items) &gt;= 3:
-github_username_1 = items[1].strip() # 第二個逗號後到第三個逗號前的數據
-team = items[2].strip() # 第三個逗號後的數據
-team2 = items[2].strip()
-github_url_1 = f"個人倉儲:https://github.com/{github_username_1}/cd2024"
-team = f"分組倉儲:https://github.com/mdecd2024/2b-midbg{team}"
-team2 = f"分組網頁:https://mdecd2024.github.io/2b-midbg{team2}"
-csv_data = items[1].strip() # 取得 CSV 中第三個逗號後的資料
-github_io_url = f"個人網頁:https://{csv_data}.github.io/cd2024/"
-line_with_urls = f"{line.strip()},{github_url_1},{github_io_url},{team},{team2}" # 以逗號分隔的資料串
-print(line_with_urls)
-else:
-print("Error:", req.text)
-
-req = ajax.ajax()
-req.bind('complete', on_complete)
-req.open('GET', url, True)
-req.set_header('content-type', 'application/x-www-form-urlencoded')
-req.send()
-
-fetch_csv_data()</pre>
+    <div id="tipue_search_content">W10協同網站作業 << <a href='W10協同網站作業.html'>Previous</a> <br /><h1>W12繪製NX作業</h1>
+<p>圖檔</p>
+<p></p>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123240_nfu_edu_tw/EeuohpP_D_pHtc5sXFOQtY0BVY_LMi5Y-cwoi-QWCGOo8w?e=pjEgXC" title="NX圖檔-4">NX圖檔-4</a></p>
+<p></p>
+<p>繪製過程</p>
+<p></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dMu9uCr9zEQ" width="560"></iframe></p>
 <p><br/><br/></p>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
-</p><br />期中影片 << <a href='期中影片.html'>Previous</a> </div>
+</p><br />W10協同網站作業 << <a href='W10協同網站作業.html'>Previous</a> </div>
 
     <!-- footer -->
       <div class="container">
